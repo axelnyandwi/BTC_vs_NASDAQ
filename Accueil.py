@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 #Chargement des données
-df = pd.read_csv('C:/Users/anyan/Desktop/IA School/PARTIELS/data_yfinance.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/axelnyandwi/BTC_vs_NASDAQ/main/data_yfinance.csv')
 
 df['Date'] = pd.to_datetime(df['Date'])
 
